@@ -2,6 +2,7 @@
 [101E](https://leetcode.com/problems/symmetric-tree/description/)
 
 ### Solution
+Recurssive
 
     class Solution {
     public boolean isSymmetric(TreeNode root) {
@@ -15,7 +16,8 @@
     }
     }
 
-    
+Iterative
+
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
         //if (root.left == null && root.right == null) return true;
