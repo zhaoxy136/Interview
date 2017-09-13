@@ -1,7 +1,7 @@
 ### Description
-[496E](https://leetcode.com/problems/next-greater-element-i/)
-[503M](https://leetcode.com/problems/next-greater-element-ii/description/)
-[556M](https://leetcode.com/problems/next-greater-element-iii/description/)
+[496E](https://leetcode.com/problems/next-greater-element-i/)  
+[503M](https://leetcode.com/problems/next-greater-element-ii/description/)  
+[556M](https://leetcode.com/problems/next-greater-element-iii/description/)  
 
 ### Solution
 
