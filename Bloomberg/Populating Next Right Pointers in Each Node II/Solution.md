@@ -23,3 +23,22 @@
             }
         }
     }
+
+Version 1: Queue
+
+    public void connect(TreeLinkNode root) {
+        if (root == null) return;
+        Queue<TreeLinkNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            TreeLinkNode next = null;
+            int size = queue.size();
+            while (size-- > 0) {
+                TreeLinkNode tmp = queue.poll();
+                tmp.next = next;
+                if (tmp.right != null) queue.add(tmp.right);
+                if (tmp.left != null) queue.add(tmp.left);
+                next = tmp;
+            }        
+        }
+    }
