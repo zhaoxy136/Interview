@@ -1,5 +1,5 @@
 ### Description
-[445M](https://leetcode.com/problems/add-two-numbers-ii/description/)
+[445M](https://leetcode.com/problems/add-two-numbers-ii/description/)   
 
 ### Solution
 
@@ -35,4 +35,8 @@
 while poping from the stack, construct the list from end to begin
 
 ### Similar
-[Add Two Numbers: 2M](https://leetcode.com/problems/add-two-numbers/description/)
+[Add Binary :67E](https://leetcode.com/problems/add-binary/description/)  
+[Add Two String: 415E](https://leetcode.com/problems/add-strings/description/)
+[Add Two Numbers: 2M](https://leetcode.com/problems/add-two-numbers/description/)  
+[Sum of Two Integers: 317E](https://leetcode.com/problems/sum-of-two-integers/description/)
+[Multiply Strings: 43M](https://leetcode.com/problems/multiply-strings/description/)
