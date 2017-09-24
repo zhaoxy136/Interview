@@ -71,3 +71,7 @@ Version 2: one stack
     public int getMin() {
         return (int)min;
     }
+
+### Related
+[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)
+
