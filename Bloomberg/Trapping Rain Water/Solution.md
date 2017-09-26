@@ -30,4 +30,6 @@
     }
     
 ### Similar
-[LeetCode: 407H](https://leetcode.com/problems/trapping-rain-water-ii/description/)
+[LeetCode: 407H](https://leetcode.com/problems/trapping-rain-water-ii/description/)  
+[LeetCode: 11M](https://leetcode.com/problems/container-with-most-water/description/)  
+[LeetCode: 238M](https://leetcode.com/problems/product-of-array-except-self/description/)  
