@@ -41,3 +41,19 @@ Given an array, get the number of subarrays whose sum are multiples of 3.
         return res;
     }
     
+Version 2: O(n)
+
+    public static int multOfK(int[] nums, int k) {
+        if (nums == null || nums.length == 0) return 0;
+        int[] count = new int[k];
+        count[0] = 1;
+        int sum = 0;
+        int res = 0;
+        for (int num : nums) {
+            sum += num;
+            sum = sum % k;
+            res += count[sum];
+            count[sum]++;
+        }
+        return res;
+    }
